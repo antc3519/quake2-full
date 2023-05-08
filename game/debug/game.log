@@ -1,0 +1,14 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  p_client.c
+C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\game\p_client.c(1446,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\game\p_client.c(1451,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\game\p_client.c(1491,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\game\p_client.c(1724,9): warning C4101: 'origin': unreferenced local variable
+C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\game\p_client.c(1719,34): warning C4101: 'add': unreferenced local variable
+C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\game\p_client.c(1720,11): warning C4101: 'DoubleJump': unreferenced local variable
+C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\game\p_client.c(1717,45): warning C4101: 't': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\debug\game.dll) does not match the Linker's OutputFile property value (C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\debug\gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1365,5): warning MSB8012: TargetName(game) does not match the Linker's OutputFile property value (gamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+g_ai.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library .\..\debug\gamex86.lib and object .\..\debug\gamex86.exp
+  game.vcxproj -> C:\Users\antc3\Desktop\GitHubFiles\quake2-full-master\debug\game.dll
